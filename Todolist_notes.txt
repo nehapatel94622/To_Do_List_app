@@ -1,0 +1,28 @@
+------------------------------To Do List App Steps------------------------------------
+step 1: Create Project(django-admin startproject ToDoListApp) 
+
+step 2: Create App in Project Folder(cd ToDoListApp)
+(djanho-admin startapp base)
+
+step 3: Install App(settings.py)
+
+step 4: Create Model
+import UserModel(django.contrib.auth.model import User)
+(Model Name(Task), Model fields=(User(Foreignkey), title(charfiedls),  description(Textfields), create(DateTimeField(Auto_Add_Now)), Complete(Booleanfields))return title)
+
+step 5: Register Model(admin.py)
+
+step 6: makemigrations, migrate and createsuperuser then runserver
+then add data throght admin panel
+
+step 7 : create file in base(urls.py)
+and add path
+
+step 8 :  Create views
+(ListView, DetailView, CreateView, EditView and Deleteview)
+
+step 9 : Create TemplateFolder(templates)
+
+then runserver
+
+step 10 : Create Login, Logout and Register Page
